@@ -4,7 +4,7 @@ from typing import List, Optional
 
 from sqlalchemy import func
 # from sqlalchemy.sql.functions import func
-from . import models, schemas, oauth2
+from .. import models, schemas, oauth2
 from database import get_db
 
 router = APIRouter(
